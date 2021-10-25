@@ -6,6 +6,8 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "dev:back": "nodemon --watch ./server --ext ts --exec ts-node ./server/index.ts"
+    "dev:back": "nodemon --watch ./server --ext ts --exec ts-node ./server/index.ts",
+    "build": "tsc ./server/index.ts",
+    "start": "node ./server/index.js"
   }
 }
