@@ -1,0 +1,11 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev:back": "nodemon --watch ./server --ext ts --exec ts-node ./server/index.ts"
+  }
+}
