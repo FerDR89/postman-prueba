@@ -39,7 +39,7 @@ app.post("/products/userId/:newProduct", (req, res) => {
   });
 });
 
-app.update("/products/userId/productId", (req, res) => {
+app.patch("/products/userId/productId", (req, res) => {
   res.json({
     userProductsList: [],
     message: "Your product was successfuly modified",
